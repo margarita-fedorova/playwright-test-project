@@ -9,6 +9,7 @@
   "devDependencies": {
     "@playwright/test": "^1.53.2",
     "@types/node": "^24.0.10",
+    "allure-playwright": "^3.3.0",
     "typescript": "^5.5.3"
   },
   "private": true,
