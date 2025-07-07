@@ -1,8 +1,8 @@
 import { test } from "../baseFixtures";
 import { VideosCategory } from "../../common/constants/categories";
 
-test.describe('Play video', () => {
-    test('Play video from "Best videos" page', async ({ homePage, bestPage, videoPage }) => {
+test.describe('Video playing', () => {
+    test('Video playing from "Best videos" page', async ({ homePage, bestPage, videoPage }) => {
         await homePage.open();
         await homePage.headerBlock.selectCategoryInVideosDropdown(VideosCategory.BEST_VIDEOS);
 

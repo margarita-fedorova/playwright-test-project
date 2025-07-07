@@ -8,7 +8,7 @@ export class VideosBlock extends BaseBlock {
     async clickRandomVideo() {
         const videosCount = await this.videos.count();
         const randomVideoNumber = getRandomNumber(0, videosCount);
-        await test.step(`Open '${randomVideoNumber}' video on best page`, async () => {
+        await test.step(`Open '${randomVideoNumber}' video on page`, async () => {
             await this.videos.nth(randomVideoNumber).click();
         });
     }

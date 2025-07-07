@@ -8,7 +8,7 @@ export class PlayerBlock extends BaseBlock {
     readonly muteVolumeImage = this.page.locator('[class="icon icon_player-mute"]');
 
     async expectGetFullVideoMenuToBeVisible(): Promise<void> {
-        await expect(this.getFullVideoMenu, 'Full video menu should be visible').toBeVisible();
+        await expect(this.getFullVideoMenu, 'Get full video menu should be visible').toBeVisible();
     }
 
     async expectMuteVolumeImageToBeVisible(): Promise<void> {
