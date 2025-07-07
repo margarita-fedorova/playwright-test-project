@@ -1,5 +1,5 @@
-import {expect, test} from "@playwright/test";
-import {BaseBlock} from "./baseBlock";
+import { expect, test } from "@playwright/test";
+import { BaseBlock } from "./baseBlock";
 
 export class PlayerBlock extends BaseBlock {
     readonly videoPlayer = this.page.locator('#video-trailer');

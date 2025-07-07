@@ -1,6 +1,6 @@
 import { BasePage } from "../basePage";
-import {HeaderBlock} from "../../blocks/headerBlock";
-import {Page} from "@playwright/test";
+import { HeaderBlock } from "../../blocks/headerBlock";
+import { Page } from "@playwright/test";
 
 export class HomePage extends BasePage {
     protected readonly path = '/';

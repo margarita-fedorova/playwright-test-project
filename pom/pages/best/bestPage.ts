@@ -1,6 +1,6 @@
 import { BasePage } from "../basePage";
-import {Page} from "@playwright/test";
-import {VideosBlock} from "../../blocks/videosBlock";
+import { Page } from "@playwright/test";
+import { VideosBlock } from "../../blocks/videosBlock";
 
 export class BestPage extends BasePage {
     protected readonly path = '/best';
